@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9132CA022D27F5B003ADB44 /* CustomBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9132C9F22D27F5B003ADB44 /* CustomBackground.swift */; };
+		F922F05322BFC41E00FE258F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F05222BFC41E00FE258F /* AppDelegate.swift */; };
+		F922F05522BFC41E00FE258F /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F05422BFC41E00FE258F /* WalletVC.swift */; };
+		F922F05822BFC41E00FE258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F922F05622BFC41E00FE258F /* Main.storyboard */; };
+		F922F05B22BFC41E00FE258F /* Spendy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F922F05922BFC41E00FE258F /* Spendy.xcdatamodeld */; };
+		F922F05D22BFC41F00FE258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F922F05C22BFC41F00FE258F /* Assets.xcassets */; };
+		F922F06C22BFCB5400FE258F /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F06B22BFCB5400FE258F /* WalletCell.swift */; };
+		F922F06E22BFCCA100FE258F /* AddWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F06D22BFCCA100FE258F /* AddWalletVC.swift */; };
+		F922F07022BFF8B400FE258F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922F06F22BFF8B400FE258F /* Extensions.swift */; };
+		F92F34B422C4005000656916 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F34B322C4005000656916 /* TransactionCell.swift */; };
+		F92F34B622C4017A00656916 /* TransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F34B522C4017A00656916 /* TransactionVC.swift */; };
+		F98567D122D3D096005CAAF7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CA22D3D096005CAAF7 /* 3.png */; };
+		F98567D222D3D096005CAAF7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CB22D3D096005CAAF7 /* 2.png */; };
+		F98567D322D3D096005CAAF7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CC22D3D096005CAAF7 /* 4.png */; };
+		F98567D422D3D096005CAAF7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CD22D3D096005CAAF7 /* 1.png */; };
+		F98567D522D3D096005CAAF7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CE22D3D096005CAAF7 /* 5.png */; };
+		F98567D622D3D096005CAAF7 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567CF22D3D096005CAAF7 /* 7.png */; };
+		F98567D722D3D096005CAAF7 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F98567D022D3D096005CAAF7 /* 6.png */; };
+		F9BB418522C8EE2D001A76F6 /* AddTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB418322C8EE2D001A76F6 /* AddTransactionVC.swift */; };
+		F9BB418822C929FE001A76F6 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB418722C929FE001A76F6 /* CustomButtonView.swift */; };
+		F9BB418A22C92A14001A76F6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB418922C92A14001A76F6 /* CustomTextField.swift */; };
+		F9BB418C22C92CCB001A76F6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB418B22C92CCB001A76F6 /* CustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9132C9F22D27F5B003ADB44 /* CustomBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackground.swift; sourceTree = "<group>"; };
+		F922F04F22BFC41E00FE258F /* Spendy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F922F05222BFC41E00FE258F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F922F05422BFC41E00FE258F /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		F922F05722BFC41E00FE258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F922F05A22BFC41E00FE258F /* Spendy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spendy.xcdatamodel; sourceTree = "<group>"; };
+		F922F05C22BFC41F00FE258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F922F06122BFC41F00FE258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F922F06B22BFCB5400FE258F /* WalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
+		F922F06D22BFCCA100FE258F /* AddWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletVC.swift; sourceTree = "<group>"; };
+		F922F06F22BFF8B400FE258F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F92F34B322C4005000656916 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		F92F34B522C4017A00656916 /* TransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionVC.swift; sourceTree = "<group>"; };
+		F98567CA22D3D096005CAAF7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F98567CB22D3D096005CAAF7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F98567CC22D3D096005CAAF7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F98567CD22D3D096005CAAF7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F98567CE22D3D096005CAAF7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F98567CF22D3D096005CAAF7 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		F98567D022D3D096005CAAF7 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		F9BB418322C8EE2D001A76F6 /* AddTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionVC.swift; sourceTree = "<group>"; };
+		F9BB418722C929FE001A76F6 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		F9BB418922C92A14001A76F6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F9BB418B22C92CCB001A76F6 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F922F04C22BFC41E00FE258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F922F04622BFC41E00FE258F = {
+			isa = PBXGroup;
+			children = (
+				F922F05122BFC41E00FE258F /* Spendy */,
+				F922F05022BFC41E00FE258F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F922F05022BFC41E00FE258F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F922F04F22BFC41E00FE258F /* Spendy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F922F05122BFC41E00FE258F /* Spendy */ = {
+			isa = PBXGroup;
+			children = (
+				F98567C922D3D05C005CAAF7 /* Screenshots */,
+				F922F06A22BFC44100FE258F /* Extension */,
+				F922F06822BFC43600FE258F /* View */,
+				F922F06722BFC43000FE258F /* Controller */,
+				F922F05222BFC41E00FE258F /* AppDelegate.swift */,
+				F922F05622BFC41E00FE258F /* Main.storyboard */,
+				F922F05C22BFC41F00FE258F /* Assets.xcassets */,
+				F922F06122BFC41F00FE258F /* Info.plist */,
+				F922F05922BFC41E00FE258F /* Spendy.xcdatamodeld */,
+			);
+			path = Spendy;
+			sourceTree = "<group>";
+		};
+		F922F06722BFC43000FE258F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F922F05422BFC41E00FE258F /* WalletVC.swift */,
+				F922F06D22BFCCA100FE258F /* AddWalletVC.swift */,
+				F92F34B522C4017A00656916 /* TransactionVC.swift */,
+				F9BB418322C8EE2D001A76F6 /* AddTransactionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F922F06822BFC43600FE258F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F922F06B22BFCB5400FE258F /* WalletCell.swift */,
+				F92F34B322C4005000656916 /* TransactionCell.swift */,
+				F9BB418722C929FE001A76F6 /* CustomButtonView.swift */,
+				F9BB418922C92A14001A76F6 /* CustomTextField.swift */,
+				F9BB418B22C92CCB001A76F6 /* CustomView.swift */,
+				F9132C9F22D27F5B003ADB44 /* CustomBackground.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F922F06A22BFC44100FE258F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F922F06F22BFF8B400FE258F /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F98567C922D3D05C005CAAF7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				F98567CD22D3D096005CAAF7 /* 1.png */,
+				F98567CB22D3D096005CAAF7 /* 2.png */,
+				F98567CA22D3D096005CAAF7 /* 3.png */,
+				F98567CC22D3D096005CAAF7 /* 4.png */,
+				F98567CE22D3D096005CAAF7 /* 5.png */,
+				F98567D022D3D096005CAAF7 /* 6.png */,
+				F98567CF22D3D096005CAAF7 /* 7.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F922F04E22BFC41E00FE258F /* Spendy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F922F06422BFC41F00FE258F /* Build configuration list for PBXNativeTarget "Spendy" */;
+			buildPhases = (
+				F922F04B22BFC41E00FE258F /* Sources */,
+				F922F04C22BFC41E00FE258F /* Frameworks */,
+				F922F04D22BFC41E00FE258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spendy;
+			productName = Spendy;
+			productReference = F922F04F22BFC41E00FE258F /* Spendy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F922F04722BFC41E00FE258F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ihsan Akbay";
+				TargetAttributes = {
+					F922F04E22BFC41E00FE258F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F922F04A22BFC41E00FE258F /* Build configuration list for PBXProject "Spendy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F922F04622BFC41E00FE258F;
+			productRefGroup = F922F05022BFC41E00FE258F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F922F04E22BFC41E00FE258F /* Spendy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F922F04D22BFC41E00FE258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98567D122D3D096005CAAF7 /* 3.png in Resources */,
+				F922F05D22BFC41F00FE258F /* Assets.xcassets in Resources */,
+				F98567D222D3D096005CAAF7 /* 2.png in Resources */,
+				F98567D722D3D096005CAAF7 /* 6.png in Resources */,
+				F98567D422D3D096005CAAF7 /* 1.png in Resources */,
+				F98567D522D3D096005CAAF7 /* 5.png in Resources */,
+				F98567D322D3D096005CAAF7 /* 4.png in Resources */,
+				F922F05822BFC41E00FE258F /* Main.storyboard in Resources */,
+				F98567D622D3D096005CAAF7 /* 7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F922F04B22BFC41E00FE258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB418522C8EE2D001A76F6 /* AddTransactionVC.swift in Sources */,
+				F9BB418A22C92A14001A76F6 /* CustomTextField.swift in Sources */,
+				F92F34B422C4005000656916 /* TransactionCell.swift in Sources */,
+				F922F06C22BFCB5400FE258F /* WalletCell.swift in Sources */,
+				F922F07022BFF8B400FE258F /* Extensions.swift in Sources */,
+				F9132CA022D27F5B003ADB44 /* CustomBackground.swift in Sources */,
+				F922F06E22BFCCA100FE258F /* AddWalletVC.swift in Sources */,
+				F9BB418822C929FE001A76F6 /* CustomButtonView.swift in Sources */,
+				F922F05B22BFC41E00FE258F /* Spendy.xcdatamodeld in Sources */,
+				F92F34B622C4017A00656916 /* TransactionVC.swift in Sources */,
+				F9BB418C22C92CCB001A76F6 /* CustomView.swift in Sources */,
+				F922F05522BFC41E00FE258F /* WalletVC.swift in Sources */,
+				F922F05322BFC41E00FE258F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F922F05622BFC41E00FE258F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F922F05722BFC41E00FE258F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F922F06222BFC41F00FE258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F922F06322BFC41F00FE258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F922F06522BFC41F00FE258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KSDVD249;
+				INFOPLIST_FILE = Spendy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanakbay.Spendy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F922F06622BFC41F00FE258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KSDVD249;
+				INFOPLIST_FILE = Spendy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanakbay.Spendy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F922F04A22BFC41E00FE258F /* Build configuration list for PBXProject "Spendy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F922F06222BFC41F00FE258F /* Debug */,
+				F922F06322BFC41F00FE258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F922F06422BFC41F00FE258F /* Build configuration list for PBXNativeTarget "Spendy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F922F06522BFC41F00FE258F /* Debug */,
+				F922F06622BFC41F00FE258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F922F05922BFC41E00FE258F /* Spendy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F922F05A22BFC41E00FE258F /* Spendy.xcdatamodel */,
+			);
+			currentVersion = F922F05A22BFC41E00FE258F /* Spendy.xcdatamodel */;
+			path = Spendy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F922F04722BFC41E00FE258F /* Project object */;
+}

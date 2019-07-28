@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14865.6" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Transaction" representedClassName=".Transaction" syncable="YES" codeGenerationType="class">
+        <attribute name="expenseAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="incomeAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="selectedIndex" optional="YES" attributeType="Integer 32" usesScalarValueType="YES"/>
+        <attribute name="transactionAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="transactionDate" optional="YES" attributeType="String"/>
+        <attribute name="transactionName" optional="YES" attributeType="String"/>
+        <relationship name="wallet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Wallet" inverseName="transaction" inverseEntity="Wallet"/>
+    </entity>
+    <entity name="Wallet" representedClassName=".Wallet" syncable="YES" codeGenerationType="class">
+        <attribute name="walletAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="walletDate" optional="YES" attributeType="String"/>
+        <attribute name="walletName" attributeType="String" defaultValueString="General"/>
+        <relationship name="transaction" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Transaction" inverseName="wallet" inverseEntity="Transaction"/>
+    </entity>
+    <elements>
+        <element name="Transaction" positionX="-63" positionY="9" width="128" height="148"/>
+        <element name="Wallet" positionX="-225.66015625" positionY="9.48046875" width="128" height="103"/>
+    </elements>
+</model>
